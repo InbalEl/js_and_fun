@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS ex1</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label>Enter message to encode: </label>
+            <input id="str_to_encode" type="text"><br>
+            
+            <label>Select encription method: </label>
+            <select id="encMethod">
+                <option value="Caesar">Caesar</option>
+                <option value="Rail Fence">Rail Fence</option>
+            </select><br>
+            
+            <label>Enter cipher paramater: </label>
+            <input id="encParam" type="number"><br>
+
+        </fieldset>
+        <input type="submit" onclick="encodeMsg()">
+    </form>
+</body>
+</html>
