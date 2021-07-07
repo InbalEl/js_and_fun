@@ -1,0 +1,338 @@
+{
+	"info": {
+		"_postman_id": "61e2300f-abcf-42f4-a695-b833786ab761",
+		"name": "expjsTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST-users-Vince-20",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fullName\":\"Vince\",\"age\":20\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4343/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST-users-Arthur-42",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Arthur\":\"Vince\",\"age\":42\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4343/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-users-test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users/test",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST-hobbies-rowing",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"rowing\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4343/hobbies",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"hobbies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST-hobbies-coding",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"coding\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4343/hobbies",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"hobbies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-hobbies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/hobbies",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"hobbies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH-users-arthur-coding",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users/1/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users",
+						"1",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH-users-vince-rowing",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users/0/0",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users",
+						"0",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH-hobbies-academic-rowing",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"academic rowing\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4343/hobbies/0",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"hobbies",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-hobbies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/hobbies",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"hobbies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4343/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4343",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "collectionResponses",
+			"value": ""
+		}
+	]
+}

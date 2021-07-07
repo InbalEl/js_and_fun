@@ -1,2 +1,6 @@
-# ignore all pdf files
-*.pdf
+node_modules/
+*.*
+
+!*.js
+!*.jsx
+!*.json
